@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>assignment 8</title>
+    </head>
+    <body>
+
+        <div class="container p-5">
+            <h2 class="mb-5">Bookmarker</h2>
+            <div class="line"></div>
+            <div class="text-center content p-5 my-5">
+                <p class="fs-3 fw-bold">Bookmark your favorite sites</p>
+                <p class="fs-5 fw-bold">Site Name</p>
+                <input type="text" id="bookName" class="form-control w-75 m-auto" placeholder="Bookmark Name">
+                <p class="fs-5 fw-bold">Site URL</p>
+                <input type="text" id="url" class="form-control w-75 m-auto" placeholder="Website URL">
+                <button onclick="addData()" class="btn btn-outline-secondary my-3">Submit</button>
+            </div>
+            <table class=" my-4 mx-auto table text-center ">
+                <thead>
+
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+            <div class="line my-2"></div>
+            <div class="foot fw-bold my-3">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </div>
+<button onclick="deleteAllData()">clear all</button>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

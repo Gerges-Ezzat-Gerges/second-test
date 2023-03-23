@@ -1,0 +1,25 @@
+h2{
+    color: #AAA;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: antiquewhite;
+}
+
+.content{
+    background-color: #EEE;
+}
+
+input {
+    vertical-align: middle;
+}
+
+table {
+    background-image: linear-gradient(#EEE,#FFF);
+}
+
+.foot{
+    color: #AAA;
+}
